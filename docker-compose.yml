@@ -1,0 +1,10 @@
+db:
+  image: elasticsearch:1.7.2
+  ports:
+  - 1282:9200
+  - 9300:9300
+  volumes:
+  - .data:/usr/share/elasticsearch/data
+  - ./config:/usr/share/elasticsearch/config
+  environment:
+    VIRTUAL_HOST: brazilian_team.football_data.dev
