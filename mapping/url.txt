@@ -1,0 +1,1 @@
+PUT brazilian_team.football_data.dev:1282/football_data/_mapping/games

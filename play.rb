@@ -1,8 +1,9 @@
 puts 'play the beautiful game'
 require 'selenium-webdriver'
 
-def process_game
-  # 'table tbody tr td font b'
+def process_game game
+  # raise game.inspect
+  puts game.find_element(:css, 'tbody tr td font b').text
 end
 
 def play

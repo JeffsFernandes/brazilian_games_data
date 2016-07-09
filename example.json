@@ -1,0 +1,75 @@
+//1062 - BRASIL 2x2 URUGUAI (Brazil 2x2 Uruguay)
+{
+  "date": "2012-04-23T00:00:00.0Z",
+  "class": "official",
+  "venue": "World Cup Qualifying",
+  "city": {
+    "name": "São Lourenço da Mata",
+    "country": "Brazil"
+  },
+  "referee": {
+    "name": "Néstor Pitana",
+    "country": "Argentina"
+  },
+  "teams": [
+    {
+      "name": "Brazil",
+      "coach": "Dunga",
+      "score": 2,
+      "players": [
+        {
+          "number": 1,
+          "name": "Alisson Becker",
+          "club": "Internacional"
+        },
+        {
+          "number": 15,
+          "name": "Daniel Alves",
+          "club": "Barcelona",
+          "goals": 1
+        },
+        {
+          "number": 3,
+          "name": "Miranda",
+          "club": "Internazionale",
+          "yellow cards": 1
+        },
+        {
+          "number": 4,
+          "name": "David Luiz",
+          "club": "Paris Sant-Germain",
+          "goals": 1,
+          "yellow cards": 1,
+          "red cards": 0
+        },
+        {
+          "number": 6,
+          "name": "Filipe Luís",
+          "club": "Atlético de Madrid"
+        }
+      ]
+    },
+    {
+      "name": "Uruguay",
+      "coach": "Oscar Tabarez",
+      "score": 2,
+      "players": [
+        {
+          "name": "Fernando Muslera"
+        },
+        {
+          "name": "Camilo Mayada"
+        },
+        {
+          "name": "José María Giménez"
+        },
+        {
+          "name": "Sebastián Coates"
+        },
+        {
+          "name": "Álvaro Pereira"
+        }
+      ]
+    }
+  ]
+}

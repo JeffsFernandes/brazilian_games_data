@@ -1,0 +1,56 @@
+{
+  "query": {
+    "filtered": {
+      "filter": {
+        "bool": {
+          "must": [
+            {
+              "query": {
+                "filtered": {
+                  "filter": {
+                    "bool": {
+                      "must": [
+                        {
+                          "nested": {
+                            "path": "teams.players",
+                            "query": {
+                              "bool": {
+                                "must": [
+                                  {
+                                    "match": {
+                                      "teams.players.name": "Daniel Alves"
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "nested": {
+                            "path": "teams",
+                            "query": {
+                              "bool": {
+                                "must": [
+                                  {
+                                    "match": {
+                                      "teams.name": "Uruguay"
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

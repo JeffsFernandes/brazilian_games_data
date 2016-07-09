@@ -1,1 +1,0 @@
-$('table tbody tr td font b') => nome, id e resultado do jogo (necessita separar )
